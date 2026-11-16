@@ -271,7 +271,7 @@ table.rv input:disabled{background:#12402b;border-color:#3fbf7d}.st{width:78px;f
 (()=>{'use strict';
 const $=id=>document.getElementById(id),ns='http://www.w3.org/2000/svg';const team=['red','blue'];
 const S={phase:'ready',mode:'cpu',range:'all',limit:120,left:120,elapsed:0,last:performance.now(),cpuNext:7000,difficulty:'rookie',cpuInterval:7000,cpuHits:2,cpuSeries:[],cpuIndex:0,bottle:3,queue:Promise.resolve(),bottleBusy:false,pendingEnd:false,session:0,soundOn:true,tweens:[],waits:[],red:{a:0,b:0,prev:'',input:'',made:0,shots:0,busy:false,streak:0},blue:{a:0,b:0,prev:'',input:'',made:0,shots:0,busy:false,streak:0}};
-const config=['mode','difficulty','time'];const DIFF={rookie:{interval:9000,hits:2},normal:{interval:7000,hits:2},pro:{interval:7000,hits:3}};
+const config=['mode','difficulty','time'];const DIFF={rookie:{interval:13000,hits:2},normal:{interval:9000,hits:2},pro:{interval:7000,hits:3}};
 // Scored balls land close to the foot of the basket; misses ricochet to midcourt,
 // remaining well away from either player's shooting position.
 // Mirrored X coordinates keep the red and blue pick-up motions symmetrical.
